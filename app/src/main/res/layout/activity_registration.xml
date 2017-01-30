@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.asthmacare.asus.asthma.view.registrationview.RegistrationActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Заполните,пожалуйста,все необходимые поля"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:hint="Фамилия"
+        android:layout_width="match_parent"
+        android:id="@+id/fname_editText"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:hint="Имя"
+        android:layout_width="match_parent"
+        android:id="@+id/name_editText"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:hint="Отчество"
+        android:layout_width="match_parent"
+        android:id="@+id/sname_editText"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:hint="Пол"
+        android:layout_width="match_parent"
+        android:id="@+id/sex_editText"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:hint="Рост"
+        android:layout_width="match_parent"
+        android:id="@+id/growth_editText"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:hint="мм/дд/гггг"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:id="@+id/bdate_editText"
+        android:ems="10"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:hint="Логин"
+        android:layout_width="match_parent"
+        android:id="@+id/login_editText"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Пароль"
+        android:id="@+id/password_editText"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:hint="Регистрация"
+        android:id="@+id/reg_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

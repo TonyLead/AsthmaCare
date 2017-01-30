@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/exam_icon"
+            android:title="Проверка" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/results_icon"
+            android:title="Результаты" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/reminders"
+            android:title="Напоминание" />
+    </group>
+
+    <item android:title="Дополнительно:">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Поделиться" />
+        </menu>
+    </item>
+
+</menu>
